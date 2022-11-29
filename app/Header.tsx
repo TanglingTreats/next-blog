@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react"
+import Navbar from "./navbar";
 
 function Header() {
   return (
-    <header className="p-5 bg-blue-500">
-      <p className="font-bold text-white">
-        This is a header
-      </p>
+    <header className="flex flex-row justify-between items-center px-10 p-5 bg-white ">
+      <Link href="/" className="text-2xl">Homepage Title</Link>
+      <Navbar />
     </header>
   )
 }

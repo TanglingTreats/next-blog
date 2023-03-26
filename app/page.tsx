@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/themes/gruvbox.css";
 
 function Home() {
   return (
